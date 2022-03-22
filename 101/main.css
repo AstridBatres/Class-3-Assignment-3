@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;}
+
+/*utilities*/
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*header*/
+div.hero{
+    background-image: url(img/newsletter.jpeg);
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
+}
+div.header-content{
+    padding-top: 4rem;
+}
+nav.social-media{
+    text-align: center;
+}
+nav.social-media a{
+    color:white;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+h1{
+    font-size: 11vh;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 0 3px black;
+    text-align: center;
+}
+p.slogan{
+    color: white;
+    text-align: center;
+    font-size: 8vh;
+}
+div.information div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+p.city,p.date{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+p.city i,p.date i{
+    color: #fe4918;
+    font-size: 30px;
+}
+h4.title{
+    font-family: 'Hurricane', cursive;
+    font-size: 40px;
+}
+p.para{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+div.last{
+    background-color: cadetblue;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+nav.icon a{
+    color: rgb(167, 87, 167);
+    font-size: 25px;
+}
